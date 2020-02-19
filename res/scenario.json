@@ -1,0 +1,39 @@
+{
+    "scenario": [
+	{
+	    "id": 1,
+	    "text": "Context 1",
+	    "options": [
+		{
+		    "text": "Option 1",
+		    "next": 2
+		},
+		{
+		    "text": "Option 2",
+		    "next": 3
+		}
+	    ]
+	},
+	{
+	    "id": 2,
+	    "text": "Context 2",
+	    "options": [
+		{
+		    "text": "Option 1",
+		    "next": 3
+		}
+	    ]
+	},
+	{
+	    "id": 3,
+	    "text": "Context 3",
+	    "options": [
+		{
+		    "text": "Option 1",
+		    "next": null
+		}
+	    ]
+	}
+    ]
+}
+
