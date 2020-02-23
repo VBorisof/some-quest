@@ -1,39 +1,313 @@
 {
     "scenario": [
-	{
-	    "id": 1,
-	    "text": "Context 1",
-	    "options": [
 		{
-		    "text": "Option 1",
-		    "next": 2
+		    "id": 0,
+		    "text": "You are in Hamburg. You stay in a room in this place called Super 8.\nYou are not alone. With you is a girl who you call Tvorcheskaya Lichnost.\n'You like Hamburg?' she asks you.",
+		    "options": [
+				{
+				    "text": "It's fair enough.",
+				    "next": 1
+				},
+				{
+				    "text": "'Lichnost, it's way too windy for me.",
+				    "next": 2
+				},
+				{
+				    "text": "We're in Hamburg?",
+				    "next": 3
+				}
+		    ]
 		},
 		{
-		    "text": "Option 2",
-		    "next": 3
-		}
-	    ]
-	},
-	{
-	    "id": 2,
-	    "text": "Context 2",
-	    "options": [
+		    "id": 1,
+		    "text": "- Fair enough? All you have to say is fair enough? Alright then.",
+		    "options": [
+				{
+				    "text": "Well sorry I meant it was very good of course.",
+				    "next": 4
+				},
+				{
+				    "text": "Oh, sorry. I was being polite. I fucking hate this town.",
+				    "next": 3
+				}
+		    ]
+		},
 		{
-		    "text": "Option 1",
-		    "next": 3
-		}
-	    ]
-	},
-	{
-	    "id": 3,
-	    "text": "Context 3",
-	    "options": [
+		    "id": 2,
+		    "text": "- Well I am sorry your ass is getting so damn cold.",
+		    "options": [
+				{
+				    "text": "Yeah, that drags since I was a child. Bad stuff.",
+				    "next": 4
+				},
+				{
+				    "text": "Well next time I might as well strip you off your clothes and see how you manage.",
+				    "next": 16
+				}
+		    ]
+		},
 		{
-		    "text": "Option 1",
-		    "next": null
+		    "id": 3,
+		    "text": "- You goddamned son of a bitch.",
+		    "options": [
+				{
+				    "text": "I'm sorry, sorry, it's all the drugs.",
+				    "next": 4
+				},
+				{
+				    "text": "Well, I'm lucky to remember your name, glowing hell unicorn.",
+				    "next": 4
+				}
+		    ]
+		},
+		{
+		    "id": 4,
+		    "text": "- Excellent. Now we are off to sleep to get to Fischmarkt early morning tomorrow.",
+		    "options": [
+				{
+				    "text": "But 'Lichnost! So damn early!!!",
+				    "next": 5
+				},
+				{
+				    "text": "Ma'am yes ma'am!",
+				    "next": 6
+				},
+				{
+				    "text": "Ehm, no. I'm out of this joint.",
+				    "next": 5
+				}
+		    ]
+		},
+		{
+		    "id": 5,
+		    "text": "- You stop your freaking whining this instant. I said we're going.",
+		    "options": [
+				{
+				    "text": "Ma'am yes ma'am...",
+				    "next": 6
+				},
+				{
+				    "text": "Well guess what, we're not!",
+				    "next": 17
+				},
+				{
+				    "text": "*Say nothing and go to the bathroom*",
+				    "next": 19
+				}
+		    ]
+		},
+		{
+		    "id": 6,
+		    "text": "Both of you daze into sleep. Not for long, for only two and a half hours\nseparate you from the dreaded Fischmarkt trip.\nJust as you begin to feel a glimpse of the most wonderful dream, you are\nhooked out of it by your companion.\n- Wakey-wakey. Meow. Get up, damn it.",
+		    "options": [
+				{
+				    "text": "Gttttrmmrmmmmmmmmrr!",
+				    "next": 7
+				},
+				{
+				    "text": "Brhhhhhwhhhhhhh!",
+				    "next": 7
+				},
+				{
+				    "text": "Rwaaaaarrrrrrhhhgggggghh..!",
+				    "next": 7
+				}
+		    ]
+		},
+		{
+		    "id": 7,
+		    "text": "- I know, I know. Poor little creature. ",
+		    "options": [
+				{
+				    "text": "*Rise up and look at her angrily*",
+				    "next": 8
+				},
+				{
+				    "text": "*Rise up and look at her calmly*",
+				    "next": 8
+				}
+		    ]
+		},
+		{
+		    "id": 8,
+		    "text": "- Don't give me that stare, come on, we gotta get to Fischmarkt!",
+		    "options": [
+				{
+				    "text": "To hell with your Fischmarkt!",
+				    "next": 7
+				},
+				{
+				    "text": "Okay..",
+				    "next": 9
+				}
+		    ]
+		},
+		{
+		    "id": 9,
+		    "text": "You leave your hotel into what would usually seem like a late evening.\n'Welcome to a Hamburg morning', you think to yourself.\nLichnost is watching you, and damn right she's got some other torture for you in her mind.\nYou arrive at an U-Bahn station and grab a train that will bring you to your destination.\nLichnost likes coffee a lot, so she grabs a cup of it before riding the train.\nCarefully, she suggests a sip for you.",
+		    "options": [
+				{
+				    "text": "*Look at her dully to express the inappropriatness of looking your way this morning.*",
+				    "next": 10
+				},
+				{
+				    "text": "*Grab a cup from her hands and gulp from it, bottoms up*",
+				    "next": 11
+				}
+		    ]
+		},
+		{
+		    "id": 10,
+		    "text": "- Okay, okay, Mister end-of-the-world-cause-i-woke-you-early!",
+		    "options": [
+				{
+				    "text": "Now you look here, missy. This better be good.",
+				    "next": 12
+				}
+		    ]
+		},
+		{
+		    "id": 11,
+		    "text": "You grab her cup and empty it in seconds. She looks mad now.\nYou look mad too. You are now content you are not alone in this.",
+		    "options": [
+				{
+				    "text": "*Yawn and look around as if nothing happened.*",
+				    "next": 12
+				},
+				{
+				    "text": "*Wink playfully at Lichnost.*",
+				    "next": 12
+				}
+		    ]
+		},
+		{
+		    "id": 12,
+		    "text": "You hop off the U-Bahn and get to the promenade.\nLichnost has made an arrangement to meet her friend Liza here.\nYou've met before, but do not know each other as well as to dislike each other.\nLiza is here indeed, waving at your two approaching figures.",
+		    "options": [
+				{
+				    "text": "Howdeely-Hoppily-Howdee-dee-do?",
+				    "next": 13
+				},
+				{
+				    "text": "Don't. Fucking. Talk. To me.",
+				    "next": 13
+				},
+				{
+				    "text": "Hey! You that chick!",
+				    "next": 13
+				}
+		    ]
+		},
+		{
+		    "id": 13,
+		    "text": "Liza: Uhm. Yeah. Okay.\nLichnost: Don't pay no mind to him, he ain't in the mood today.",
+		    "options": [
+				{
+				    "text": "OH REALLY AND WHY WOULD THAT BE?",
+				    "next": 14
+				},
+				{
+				    "text": "You liar. I am perfectly fine.",
+				    "next": 14
+				},
+				{
+				    "text": "Let's just get the shit over with.",
+				    "next": 14
+				}
+		    ]
+		},
+		{
+		    "id": 14,
+		    "text": "Before you appears the Fischmarkt. Or what was supposed to be a Fishmarkt.\nGirls exclaim, 'My, it sure isn't crowdy today like usual.'\nIn fact, there is nobody around.",
+		    "options": [
+				{
+				    "text": "Goddamn it, we just wasted a fucking Saturday!",
+				    "next": 15
+				}
+		    ]
+		},
+		{
+		    "id": 15,
+		    "text": "Girls scream out a chant together, 'SATURDAY?'.\nAll is ruined.\nFischmarkt will not exist until tomorrow.\nIn fact, everything now begins to lose any sense whatsoever.",
+		    "options": [
+				{
+				    "text": "Take off all your clothes rapidly and jump into the river.",
+				    "next": null
+				},
+				{
+				    "text": "Take both of girls heads and collide them with your own head.",
+				    "next": null
+				},
+				{
+				    "text": "Scream until you are taken away by somebody to a better place.",
+				    "next": null
+				}
+		    ]
+		},
+		{
+		    "id": 16,
+		    "text": "- Well why don't you strip me right now?",
+		    "options": [
+				{
+				    "text": "I don't wanna miss out on my sleep",
+				    "next": 6
+				},
+				{
+				    "text": "*Look at her charmingly and let the night take you wherever.*",
+				    "next": 6
+				}
+		    ]
+		},
+		{
+		    "id": 17,
+		    "text": "You step out of this entire story, shutting it like a book.\nCold Hamburg night is pushing all the wind it has and into your face.\nYou wonder, what next.",
+		    "options": [
+				{
+				    "text": "*ReeperBahn Burlesque show*",
+				    "next": 18
+				},
+				{
+				    "text": "*Just lay on the ground and do nothing.*",
+				    "next": null
+				}
+		    ]
+		},
+		{
+		    "id": 18,
+		    "text": "On your way to Reeperbahn you meet ten negroes who think you are cute.\nYour final words would be?",
+		    "options": [
+				{
+				    "text": "Ehm. Hello gentlemen?",
+				    "next": null
+				},
+				{
+				    "text": "Well come on, bring it on!",
+				    "next": null
+				},
+				{
+				    "text": "Mama!",
+				    "next": null
+				},
+				{
+				    "text": "Just lay on the ground and do nothing.",
+				    "next": null
+				}
+		    ]
+		},
+		{
+		    "id": 19,
+		    "text": "You shut yourself in a bathroom, but alas, it's lacking a key.\nLichnost will get to you eventually.\nWhat do you do?",
+		    "options": [
+				{
+				    "text": "*Submit. No point in fighting, go back to bed.*",
+				    "next": 6
+				},
+				{
+				    "text": "*Artistically spit somewhere aloud and leave the hotel.*",
+				    "next": 17
+				}
+		    ]
 		}
-	    ]
-	}
     ]
 }
 

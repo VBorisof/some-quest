@@ -1,5 +1,8 @@
 import distutils.text_file
-import json.decoder
+import json
+
+from context import Context 
+from typing import List
 
 class Scenario:
     contexts=[]
@@ -9,12 +12,15 @@ class Scenario:
         current_line=text_file.readline()
         all_text = ""
         while current_line != "" and current_line is not None:
-            print ("[D] " + current_line)
             all_text += current_line
             current_line=text_file.readline()
 
-        decoded = json.decoder.JSONDecoder().decode(all_text)
-
-        contexts=decoded["scenario"]
-        print ("[D] " + str(decoded))
+        print(json.loads(all_text))
+        self.contexts = Scenario.from_json(json.loads(all_text))
         
+
+    @classmethod
+    def from_json(cls, data):
+        print("[Scenario] Got some data : " + str(data) + "\n")
+        return list(map(Context.from_json, data["scenario"]))
+

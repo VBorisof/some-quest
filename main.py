@@ -1,6 +1,6 @@
-import world
-import scenario
+from world import World
+from scenario import Scenario
 
-scenario.Scenario("res/scenario.json")
-
-world.World().run()
+world = World(Scenario("res/scenario.json"))
+while world.is_running:
+	world.run()
